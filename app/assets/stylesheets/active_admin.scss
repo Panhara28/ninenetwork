@@ -20,4 +20,16 @@ $navbar-inverse-bg: #446CB3;
 $navbar-inverse-border: none;
 $navbar-inverse-brand-color: #fff;
 $navbar-inverse-link-color: #fff;
+
+//Font config
+$font-size-large: 10px;
+$navbar-padding-horizontal: 0px;
 @import "active_bootstrap_skin";
+
+.site_title a{
+  color: white;
+font-weight: bold;
+background: #36568e;
+padding: 14px 10px 14px 10px;
+font-size: 1.800em;
+}

@@ -50,7 +50,7 @@ end
 
 lock '3.5.0'
 
-set :repo_url, 'git@gitlab.com:Panhara28/ninenetwork.git'
+set :repo_url, 'git@github.com:Panhara28/ninenetwork.git'
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 set :user, 'deployer'

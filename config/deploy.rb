@@ -1,8 +1,8 @@
 # config valid only for current version of Capistrano
-lock '3.5.0'
-
-set :application, 'my_app_name'
-set :repo_url, 'git@example.com:me/my_repo.git'
+# lock '3.5.0'
+#
+# set :application, 'my_app_name'
+# set :repo_url, 'git@example.com:me/my_repo.git'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
@@ -50,7 +50,7 @@ end
 
 lock '3.5.0'
 
-set :repo_url, 'git@github.com:Panhara28/ninenetwork.git'
+set :repo_url, 'git@gitlab.com:Panhara28/ninenetwork.git'
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 set :user, 'deployer'

@@ -15,7 +15,7 @@ ActiveAdmin.register Page do
   form :html=> {:enctype=>"multipart/form-data"} do |f|
     f.inputs do
       f.input :title
-      f.input :description
+      f.input :description, :as => :ckeditor
       f.file_field :image, hint: f.page.image? ? image_tag(page.image.url, height:'100') : content_tag(:span,"Upload JPG/PNG/GIF image")
     end
     f.actions

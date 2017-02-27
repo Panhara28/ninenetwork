@@ -50,7 +50,7 @@ end
 
 lock '3.5.0'
 
-set :repo_url, 'https://aipanhara@bitbucket.org/aipanhara/ninenetwork.git'
+set :repo_url, 'https://gitlab.com/titpanhara/ninenetwork.git'
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 set :user, 'deployer'

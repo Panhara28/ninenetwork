@@ -54,7 +54,7 @@ set :repo_url, 'https://aipanhara@bitbucket.org/aipanhara/projectai.git'
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 set :user, 'deployer'
-set :application, 'ProjectAi'
+set :application, 'projectai'
 set :rails_env, 'production'
 server '128.199.201.64', user: "#{fetch(:user)}", roles: %w{app db web}, primary: true
 set :deploy_to,       "/home/#{fetch(:user)}/apps/#{fetch(:application)}"

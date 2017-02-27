@@ -17,19 +17,14 @@ ActiveAdmin.register_page "Dashboard" do
     columns do
       column do
         panel "Recent Posts" do
-          ul do
-            # Post.recent(5).map do |post|
-            #   li link_to(post.title, admin_post_path(post))
-            # end
+          table_for Post.order('id desc').limit(10) do |post|
+            column("Title") {|post| post.title}
+            column("Description") {|post| post.description}
+            column("Image") {|post| post.image}
           end
         end
       end
-
-      column do
-        panel "Post Recent" do
-          para "Staff"
-        end
-      end
     end
-  end # content
+  end
+
 end

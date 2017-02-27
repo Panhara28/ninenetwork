@@ -28,8 +28,12 @@ $navbar-padding-horizontal: 0px;
 
 .site_title a{
   color: white;
-font-weight: bold;
-background: #36568e;
-padding: 14px 10px 14px 10px;
-font-size: 1.800em;
+  font-weight: bold;
+  background: #36568e;
+  padding: 14px 10px 14px 10px;
+  font-size: 1.800em;
+}
+
+.clear_filters_btn{
+  margin-left: 10px;
 }
